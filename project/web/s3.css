@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2019, 6:19:51 PM
+    Author     : RGUKT
+*/
+
+            .btn1 {
+                color: white;
+                padding: 16px 20px;
+                border: 1;
+                cursor: pointer;
+                width:150px;
+            }
+            .form-container1 input[type=text], .form-container1 input[type=number] {
+                    width: 30%;
+                    padding: 15px;
+                    margin: 5px 0 22px 0;
+                    border: none;
+                    background: #f1f1f1;
+                    font-size: 13pt;
+               }
+            .form-container1 input[type=text]:focus, .form-container1 input[type=number]:focus {
+                    background-color: #ddd;
+                    outline: none;
+                }
+                
+                #n2{
+                    margin-right:25px; 
+                }
+                #n3{
+                    margin-right:65px; 
+                }
+                #n4{
+                    margin-right:20px; 
+                }
+                #b3{
+                background-color: red;  
+            } 
+            #b4{
+                background-color: green;
+            }

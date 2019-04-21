@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="s3.css">
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+
+
+    </head>
+        <body bgcolor="#E0C0C0">
+        <center>
+            <div class="form-popup" id="myForm">
+                <form action="deleteJSP.jsp" method="POST" class="form-container1">
+                    <h1>Details to delete</h1>
+                    <label for="Name"><big><b>ID</b></big></label>
+                    <input type="text" placeholder="B141471" id="n1" minlength="7" maxlength="7" name="id" required><br><br>
+                    
+                    <label for="Name"><big><b>Name</b></big></label>
+                    <input type="text" placeholder="Bob" id="n2" name="nm" minlength="3" required><br><br>
+                
+                    <label for="Name"><big><b>Percentage</b></big></label>
+                    <input type="number" max="100" min="0" placeholder="90" id="n3" name="mark" required><br><br>
+                    
+                    <label for="Name"><big><b>Rank</b></big></label>
+                    <input type="number" min="0" placeholder="1" id="n4" name="rank" required><br><br>
+                    
+                    <button  type="submit" class="btn1" id="b3">Confirm Delete</button><br><br>
+                    <button  type="button" class="btn1" id="b4" onclick="goBack()">Go Back</button>
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

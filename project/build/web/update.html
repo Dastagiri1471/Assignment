@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="s4.css">
+        
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+
+
+    </head>
+        <body bgcolor="#E0C0C0">
+            <div class="form-popup" id="myForm">
+                <form action="updateJsp.jsp" method="POST" class="form-container1">
+                    <div class="div1">
+                    
+                        <center><h1>Present Details</h1></center>
+                    <label id='l1' for="Name"><big><b>ID</b></big></label>
+                    <input type="text" placeholder="B141471" minlength="7" maxlength="7" id="n1" name="a1" required><br><br>
+                    
+                    <label id='l2' for="Name"><big><b>Name</b></big></label>
+                    <input type="text" placeholder="Bob" id="n2" name="a2" minlength="3" required><br><br>
+                    
+                    <label id='l4' for="Name"><big><b>Percentage</b></big></label>
+                    <input type="number" max="100" min="0" placeholder="90" id="n4" name="a4" required><br><br>
+                    
+                    <label id='l5' for="Name"><big><b>Rank</b></big></label>
+                    <input type="number" min="0" placeholder="1" id="n5" name="a5" required><br><br>
+                    
+                    </div>
+                    
+                    <div class="div2">
+                        <center><h1>Details to Update</h1></center>
+                    <label id="l6" for="Name"><big><b>Name</b></big></label>
+                    <input type="text" placeholder="Bob" id="n11" minlength="3" name="a6" required><br><br>
+                    
+                    <label id="l7" for="Name"><big><b>Interests</b></big></label>
+                    <input type="text" placeholder="C,Python,Java" minlength="3" id="n22" name="a7" required><br><br>
+                    
+                    <label id="l8" for="Name"><big><b>Percentage</b></big></label>
+                    <input type="number" max="100" min="0" placeholder="90" id="n33" name="a8" required><br><br>
+                    
+                    <label id="l9" for="Name"><big><b>Rank</b></big></label>
+                    <input type="number" min="0" placeholder="1" id="n44" name="a9" required><br><br>
+                    
+                    <button  type="submit" class="btn1" id="b3">Update</button><br><br>
+                    <button  type="button" class="btn1" id="b4" onclick="goBack()">Go Back</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <p style="font-size: 30px;margin-left: 30px;margin-bottom:20px; ">
+                <b>Note:</b>1.User ID cannot be change.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     2.Present details must be correct.
+            </p>
+    </body>
+</html>

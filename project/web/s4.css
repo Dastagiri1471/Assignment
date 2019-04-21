@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2019, 6:21:54 PM
+    Author     : RGUKT
+*/
+            .div1{
+                width:50%;
+                display:block;
+                float: left;
+             }
+            .div2{
+                width:50%;
+                display:block;
+                float: right;
+             }
+            .btn1 {
+                color: white;
+                padding: 16px 20px;
+                border: 1;
+                cursor: pointer;
+                width:150px;
+            }
+            .form-container1 input[type=text], .form-container1 input[type=number] {
+                    width: 30%;
+                    padding: 15px;
+                    margin: 5px 0 22px 0;
+                    border: none;
+                    background: #f1f1f1;
+                    font-size: 13pt;
+               }
+            .form-container1 input[type=text]:focus, .form-container1 input[type=number]:focus {
+                    background-color: #ddd;
+                    outline: none;
+                }
+                #l1{
+                    margin-left: 190px;
+                }
+                #l2{
+                    margin-left: 165px;
+                }
+                #l4{
+                    margin-left: 120px;
+                }
+                #l5{
+                    margin-left: 165px;
+                }
+                #l6{
+                    margin-left: 170px;
+                }
+                
+                #l7{
+                    margin-left: 145px;
+                }
+                
+                #l8{
+                    margin-left: 125px;
+                }
+                
+                #l9{
+                    margin-left: 170px;
+                }
+                
+                
+                #b3{
+                background-color: red;
+                margin-left: 250px;
+            } 
+            #b4{
+                background-color: green;
+                margin-left: 250px;
+            }
+

@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2019, 6:17:06 PM
+    Author     : RGUKT
+*/
+
+
+            .form-popup {
+                display: none;
+            }
+            
+            .btn {
+                color: white;
+                padding: 16px 20px;
+                border: 1;
+                cursor: pointer;
+                width:150px;
+            }
+            .btn1 {
+                color: white;
+                padding: 16px 20px;
+                border: 1;
+                cursor: pointer;
+                width:150px;
+            }
+            #b1{
+                 background-color: darkorange;
+            }      
+            #b2{
+                 background-color: fuchsia;
+            } 
+            .form-container input[type=text], .form-container input[type=number] {
+                    width: 40%;
+                    padding: 15px;
+                    margin: 5px 0 22px 0;
+                    border: none;
+                    background: #f1f1f1;
+                    font-size: 13pt;
+               }
+            .form-container input[type=text]::placeholder {
+                font-size: 1.5em;
+            }
+    
+            .form-container input[type=text]:focus, .form-container input[type=number]:focus {
+                    background-color: #ddd;
+                    outline: none;
+                }
+
+                .form-container1 input[type=text], .form-container1 input[type=number] {
+                    width: 30%;
+                    padding: 15px;
+                    margin: 5px 0 22px 0;
+                    border: none;
+                    background: #f1f1f1;
+                    font-size: 13pt;
+               }
+
+    
+            .form-container1 input[type=text]:focus, .form-container1 input[type=number]:focus {
+                    background-color: #ddd;
+                    outline: none;
+                }
+                
+                #n2{
+                    margin-right:25px; 
+                }
+                #n3{
+                    margin-right:45px; 
+                }
+                #b3{
+                background-color: green;  
+            } 
+            #b4{
+                background-color: red;
+            }
